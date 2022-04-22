@@ -1,0 +1,16 @@
+vovels = ['a','ã','i','ï','u','ū','e','ē','o','ō','ṃ']
+chars = [',', ' ']
+constants = ['k','g','c','j','ṭ','ḍ','ṉ','t','d','n','p','b','m','y','r','l','v','ṣ','s','h','ḷ']
+meluli = ['ಅ','ಆ','ಇ','ಈ','ಉ','ಉ','ಎ','ಏ','ಒ','ಓ', 'o']
+gunita = ['಼', 'ಾ','ಿ', 'ೀ', 'ು', 'ೂ', 'ೆ', 'ೇ', 'ೊ', 'ೋ', 'o']
+uli = ['ಕ','ಗ','ಚ','ಜ','ಟ','ಡ','ಣ','ತ','ದ','ನ','ಪ','ಬ','ಮ','ಯ','ರ','ಲ','ವ','ಶ','ಸ','ಹ','ಳ']
+stop = '್'
+
+
+w = w.replace('w', 'v').replace('ẽ', 'e').replace('ṅ', 'ṃ')
+w = w.replace('ṇ', 'ṉ').replace('ṛ', 'r').replace('ṟ', 'r').replace('ŋ', 'ṉ')
+w = w.replace('ḥ', 'h').replace('ụ', 'u').replace('ā', 'ã').replace('ů', 'u')
+w = w.replace('ü', 'u').replace('ɔ', 'ã').replace('á', 'ã').replace('ī', 'ï')
+w = w.replace('ĩ', 'i').replace('ë', 'e').replace('è', 'e').replace('š', 's')
+w = w.replace('ñ', 'n').replace('ö', 'o').replace('õ', 'ō').replace('ś', 's')
+w = w.replace('ɨ', 'u').replace('ə', 'a').replace('ō', 'ō')
